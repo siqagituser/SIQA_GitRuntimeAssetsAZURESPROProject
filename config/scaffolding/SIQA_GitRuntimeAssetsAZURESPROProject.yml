@@ -108,43 +108,18 @@ services:
   - name: SIQA_OriginTest_OnPremAssets
     version: "1.0"
 configurationVariables:
-  ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionSettings.password
-  : "{AES}B2Xqma4Ost5nVUiXctJydQ=="
-  jdbc.jdbcTestPool.snoopparms: ddtdbg.ProtocolTraceEnable=true;ddtdbg.ProtocolTraceMaxline=16;ddtdbg.ProtocolTraceLocation=logs/snoop/jdbcTestPool.log;ddtdbg.ProtocolTraceShowTime=true
-  ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionManagerSettings.minimumPoolSize
-  : "1"
-  ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionManagerSettings.startupBackoffSecs
-  : "10"
-  jdbc.jdbcTestPool.maxConns: "10"
-  jdbc.jdbcTestPool.userid: root
-  ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionManagerSettings.poolIncrementSize
-  : "1"
-  ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionSettings.keyStore
-  : ""
-  jdbc.jdbcTestPool.spyenabled: "false"
-  jdbc.jdbcTestPool.snoopenabled: "false"
-  ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionManagerSettings.blockingTimeout
-  : "1000"
-  ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionManagerSettings.maximumPoolSize
-  : "10"
-  jdbc.jdbcTestPool.spyparms: SpyAttributes=(log=(file)logs/spy/jdbcTestPool.log;logTName=yes;timestamp=yes)
-  ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionSettings.user
-  : sa
-  ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionManagerSettings.expireTimeout
-  : "1000"
-  ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionSettings.driverType
-  : Progress® DataDirect®
-  ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionManagerSettings.heartBeatInterval
-  : "0"
-  ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionManagerSettings.startupRetryCount
-  : "0"
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
   jdbc.jdbcTestPool.expireTime: "60000"
+  ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionSettings.password
+  : "{AES}B2Xqma4Ost5nVUiXctJydQ=="
   ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionEnabled
   : "false"
+  jdbc.jdbcTestPool.snoopparms: ddtdbg.ProtocolTraceEnable=true;ddtdbg.ProtocolTraceMaxline=16;ddtdbg.ProtocolTraceLocation=logs/snoop/jdbcTestPool.log;ddtdbg.ProtocolTraceShowTime=true
   ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionSettings.transactionType
   : NO_TRANSACTION
+  jdbc.jdbcTestPool.maxConns: "10"
+  jdbc.jdbcTestPool.userid: root
   ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionSettings.datasourceClass
   : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
   ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionSettings.databaseName
@@ -154,17 +129,26 @@ configurationVariables:
   : loginTimeout=60;driverType=thin;
   ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionSettings.serverName
   : vmiboint01
+  ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionSettings.keyStore
+  : ""
+  jdbc.jdbcTestPool.spyenabled: "false"
   ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionSettings.networkProtocol
   : tcp
+  jdbc.jdbcTestPool.snoopenabled: "false"
   ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionSettings.portNumber
   : "1433"
   jdbc.jdbcTestPool.password: "{AES}er+I3U8nDVm8F4DBRST1+A=="
+  jdbc.jdbcTestPool.spyparms: SpyAttributes=(log=(file)logs/spy/jdbcTestPool.log;logTName=yes;timestamp=yes)
   jdbc.jdbcTestPool.dbURL: jdbc:mysql://mysql.test.local:3306/webm
   jdbc.jdbcTestPool.poolThreshold: "0"
   ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionManagerSettings.poolable
   : "false"
   ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionSettings.dbType
   : MSSQL
+  ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionSettings.user
+  : sa
   ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionSettings.trustStore
   : ""
+  ? artConnection.SIQA_GitRuntimeAssetsAZURESPROProject.project.siqa_gitruntimeassetsazurespro.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11Nov.connectionSettings.driverType
+  : Progress® DataDirect®
   jdbc.jdbcTestPool.useSSL: "false"
